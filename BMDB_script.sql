@@ -50,7 +50,11 @@ Create table Credit (
 --Insert into table Movie
  Insert into Movie(title,year,rating,director)
  Values
- ('The Pursuit Of Happyness',2006,'PG-13','Gabriele Muccino');
+ ('The Pursuit Of Happyness',2006,'PG-13','Gabriele Muccino'),
+ ('Men in Black',1997,'PG-13','Barry Sonnenfeld'),
+ ('Barbie',2023,'PG-13','Greta Gerwig')
+ 
+ ;
 
 
  ---Insert Actor information inthe table Actor
@@ -64,6 +68,6 @@ Create table Credit (
  values(1,1,'Chris Gardner');
 
 
-
+ Select * from Movie;
 
 	
