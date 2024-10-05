@@ -77,6 +77,7 @@ Status 				varchar(20) 	not null DEFAULT 'New',
 Total 				decimal(10,2) 	not null,
 SubmittedDate 		datetime 		DEFAULT current_timestamp not null,
 ReasonForRejection 	varchar(100) 	null,
+RequestNumber            varchar(20)    null,	
 FOREIGN KEY (UserID) REFERENCES [User](Id)
 );
 
