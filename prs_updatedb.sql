@@ -141,11 +141,11 @@ VALUES
 
 
 --Insert data in request table
-INSERT INTO Request (UserId, Description, Justification, DateNeeded, DeliveryMode, Status, Total, SubmittedDate, ReasonForRejection)
+INSERT INTO Request (UserId, Description, Justification, DateNeeded, DeliveryMode, Status, Total, SubmittedDate, ReasonForRejection,RequestNumber)
 VALUES 
-(1, 'Laptop Purchase', 'Need a new laptop for work from home', '2024-09-10', 'Delivery', 'New', 499.99, '2024-08-26 10:15:00', NULL),
-(2, 'Webcam Purchase', 'Required for video conferencing', '2024-09-12', 'Pickup', 'New', 79.99, '2024-08-26 11:00:00', NULL),
-(3, 'Printer Purchase', 'Replacing old printer for office use', '2024-09-15', 'Delivery', 'New', 129.99, '2024-08-26 12:30:00', NULL);
+(1, 'Laptop Purchase', 'Need a new laptop for work from home', '2024-09-10', 'Delivery', 'New', 499.99, '2024-08-26 10:15:00', NULL,NULL),
+(2, 'Webcam Purchase', 'Required for video conferencing', '2024-09-12', 'Pickup', 'New', 79.99, '2024-08-26 11:00:00', NULL,NULL),
+(3, 'Printer Purchase', 'Replacing old printer for office use', '2024-09-15', 'Delivery', 'New', 129.99, '2024-08-26 12:30:00', NULL,NULL);
 
 
 ---insert data in Lineitem Table
